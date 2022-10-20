@@ -30,10 +30,6 @@ target 'ArticleApp' do
     inherit! :complete
     # Pods for testing
   end
-  
-  target 'ArticleAppClip' do
-    inherit! :complete
-  end
 
   post_install do |installer|
     react_native_post_install(
@@ -44,4 +40,31 @@ target 'ArticleApp' do
     )
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
+end
+
+target 'ArticleAppClip' do
+    pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
+    pod 'FBReactNativeSpec', :path => "../node_modules/react-native/React/FBReactNativeSpec"
+    pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
+    pod 'RCTTypeSafety', :path => "../node_modules/react-native/Libraries/TypeSafety"
+    pod 'React', :path => "../node_modules/react-native/"
+    pod 'React-Core', :path => "../node_modules/react-native/"
+    pod 'React-CoreModules', :path => "../node_modules/react-native/React/CoreModules"
+    pod 'React-RCTActionSheet', :path => "../node_modules/react-native/Libraries/ActionSheetIOS"
+    pod 'React-RCTAnimation', :path => "../node_modules/react-native/Libraries/NativeAnimation"
+    pod 'React-RCTBlob', :path => "../node_modules/react-native/Libraries/Blob"
+    pod 'React-RCTImage', :path => "../node_modules/react-native/Libraries/Image"
+    pod 'React-RCTLinking', :path => "../node_modules/react-native/Libraries/LinkingIOS"
+    pod 'React-RCTNetwork', :path => "../node_modules/react-native/Libraries/Network"
+    pod 'React-RCTSettings', :path => "../node_modules/react-native/Libraries/Settings"
+    pod 'React-RCTText', :path => "../node_modules/react-native/Libraries/Text"
+    pod 'React-RCTVibration', :path => "../node_modules/react-native/Libraries/Vibration"
+    pod 'React-Core/RCTWebSocket', :path => "../node_modules/react-native/"
+
+    pod 'React-cxxreact', :path => '../node_modules/react-native/ReactCommon/cxxreact'
+    pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi'
+    pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
+    pod 'React-callinvoker', :path => "../node_modules/react-native/ReactCommon/callinvoker"
+    # Use when hermes is enabled
+    pod 'React-hermes', :path => "../node_modules/react-native/ReactCommon/hermes"
 end
