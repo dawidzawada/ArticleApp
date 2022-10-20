@@ -1,6 +1,9 @@
 // prettier-ignore
 {
   "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
+  "include": [
+    "NativeModules.d.ts"
+  ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 

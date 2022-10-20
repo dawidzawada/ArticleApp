@@ -21,6 +21,7 @@
 		8DA34893290165EE00E6BC83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA34891290165EE00E6BC83 /* LaunchScreen.storyboard */; };
 		8DA34896290165EE00E6BC83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA34895290165EE00E6BC83 /* main.m */; };
 		8DA3489A290165EE00E6BC83 /* ArticleAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 8DA34881290165ED00E6BC83 /* ArticleAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8DA348A329018FCF00E6BC83 /* AppClipLinkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA348A229018FCF00E6BC83 /* AppClipLinkingManager.m */; };
 		BA85F46EDB6418D6748B3404 /* libPods-ArticleAppClip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D242B2C9579DE835E1B676DA /* libPods-ArticleAppClip.a */; };
 		C92D13E73F2AB912FEF0BFB9 /* libPods-ArticleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFA7D2564533FD8FA62928B /* libPods-ArticleApp.a */; };
 /* End PBXBuildFile section */
@@ -85,6 +86,8 @@
 		8DA34894290165EE00E6BC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DA34895290165EE00E6BC83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8DA34897290165EE00E6BC83 /* ArticleAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArticleAppClip.entitlements; sourceTree = "<group>"; };
+		8DA348A129018FB600E6BC83 /* AppClipLinkingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppClipLinkingManager.h; sourceTree = "<group>"; };
+		8DA348A229018FCF00E6BC83 /* AppClipLinkingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppClipLinkingManager.m; sourceTree = "<group>"; };
 		CBFA7D2564533FD8FA62928B /* libPods-ArticleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArticleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D242B2C9579DE835E1B676DA /* libPods-ArticleAppClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArticleAppClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C6889643CDA27C86F98783 /* Pods-ArticleApp-ArticleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleApp-ArticleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ArticleApp-ArticleAppTests/Pods-ArticleApp-ArticleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -209,6 +212,8 @@
 				8DA34894290165EE00E6BC83 /* Info.plist */,
 				8DA34895290165EE00E6BC83 /* main.m */,
 				8DA34897290165EE00E6BC83 /* ArticleAppClip.entitlements */,
+				8DA348A129018FB600E6BC83 /* AppClipLinkingManager.h */,
+				8DA348A229018FCF00E6BC83 /* AppClipLinkingManager.m */,
 			);
 			path = ArticleAppClip;
 			sourceTree = "<group>";
@@ -635,6 +640,7 @@
 				8DA34885290165ED00E6BC83 /* AppDelegate.m in Sources */,
 				8DA34896290165EE00E6BC83 /* main.m in Sources */,
 				8DA34888290165ED00E6BC83 /* SceneDelegate.m in Sources */,
+				8DA348A329018FCF00E6BC83 /* AppClipLinkingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
