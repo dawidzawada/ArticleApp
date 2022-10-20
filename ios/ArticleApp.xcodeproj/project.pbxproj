@@ -12,8 +12,17 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		57BFFF365A3C0B9D11A0796C /* libPods-ArticleApp-ArticleAppClip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3CC675C8D7FB0E41BEDB4 /* libPods-ArticleApp-ArticleAppClip.a */; };
 		7699B88040F8A987B510C191 /* libPods-ArticleApp-ArticleAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ArticleApp-ArticleAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8DA34885290165ED00E6BC83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA34884290165ED00E6BC83 /* AppDelegate.m */; };
+		8DA34888290165ED00E6BC83 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA34887290165ED00E6BC83 /* SceneDelegate.m */; };
+		8DA3488B290165ED00E6BC83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA3488A290165ED00E6BC83 /* ViewController.m */; };
+		8DA3488E290165ED00E6BC83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA3488C290165ED00E6BC83 /* Main.storyboard */; };
+		8DA34890290165EE00E6BC83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA3488F290165EE00E6BC83 /* Assets.xcassets */; };
+		8DA34893290165EE00E6BC83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA34891290165EE00E6BC83 /* LaunchScreen.storyboard */; };
+		8DA34896290165EE00E6BC83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA34895290165EE00E6BC83 /* main.m */; };
+		8DA3489A290165EE00E6BC83 /* ArticleAppClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 8DA34881290165ED00E6BC83 /* ArticleAppClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +33,28 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = ArticleApp;
 		};
+		8DA34898290165EE00E6BC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA34880290165ED00E6BC83;
+			remoteInfo = ArticleAppClip;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DA3489B290165EE00E6BC83 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				8DA3489A290165EE00E6BC83 /* ArticleAppClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* ArticleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArticleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,11 +68,27 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ArticleApp/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ArticleApp-ArticleAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArticleApp-ArticleAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-ArticleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleApp.debug.xcconfig"; path = "Target Support Files/Pods-ArticleApp/Pods-ArticleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4CF37CB3DC12F95A07003A59 /* Pods-ArticleApp-ArticleAppClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleApp-ArticleAppClip.release.xcconfig"; path = "Target Support Files/Pods-ArticleApp-ArticleAppClip/Pods-ArticleApp-ArticleAppClip.release.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ArticleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleApp.release.xcconfig"; path = "Target Support Files/Pods-ArticleApp/Pods-ArticleApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-ArticleApp-ArticleAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleApp-ArticleAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ArticleApp-ArticleAppTests/Pods-ArticleApp-ArticleAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ArticleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArticleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ArticleApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ArticleApp-ArticleAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleApp-ArticleAppTests.release.xcconfig"; path = "Target Support Files/Pods-ArticleApp-ArticleAppTests/Pods-ArticleApp-ArticleAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DA34881290165ED00E6BC83 /* ArticleAppClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArticleAppClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA34883290165ED00E6BC83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DA34884290165ED00E6BC83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DA34886290165ED00E6BC83 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		8DA34887290165ED00E6BC83 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		8DA34889290165ED00E6BC83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DA3488A290165ED00E6BC83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DA3488D290165ED00E6BC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DA3488F290165EE00E6BC83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DA34892290165EE00E6BC83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DA34894290165EE00E6BC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA34895290165EE00E6BC83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DA34897290165EE00E6BC83 /* ArticleAppClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArticleAppClip.entitlements; sourceTree = "<group>"; };
+		A05C208ABD11DB1041F9DAF6 /* Pods-ArticleApp-ArticleAppClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleApp-ArticleAppClip.debug.xcconfig"; path = "Target Support Files/Pods-ArticleApp-ArticleAppClip/Pods-ArticleApp-ArticleAppClip.debug.xcconfig"; sourceTree = "<group>"; };
+		E9D3CC675C8D7FB0E41BEDB4 /* libPods-ArticleApp-ArticleAppClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArticleApp-ArticleAppClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -60,6 +106,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-ArticleApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA3487E290165ED00E6BC83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BFFF365A3C0B9D11A0796C /* libPods-ArticleApp-ArticleAppClip.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +156,7 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-ArticleApp.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ArticleApp-ArticleAppTests.a */,
+				E9D3CC675C8D7FB0E41BEDB4 /* libPods-ArticleApp-ArticleAppClip.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +174,7 @@
 				13B07FAE1A68108700A75B9A /* ArticleApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ArticleAppTests */,
+				8DA34882290165ED00E6BC83 /* ArticleAppClip */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -133,8 +189,28 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* ArticleApp.app */,
 				00E356EE1AD99517003FC87E /* ArticleAppTests.xctest */,
+				8DA34881290165ED00E6BC83 /* ArticleAppClip.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA34882290165ED00E6BC83 /* ArticleAppClip */ = {
+			isa = PBXGroup;
+			children = (
+				8DA34883290165ED00E6BC83 /* AppDelegate.h */,
+				8DA34884290165ED00E6BC83 /* AppDelegate.m */,
+				8DA34886290165ED00E6BC83 /* SceneDelegate.h */,
+				8DA34887290165ED00E6BC83 /* SceneDelegate.m */,
+				8DA34889290165ED00E6BC83 /* ViewController.h */,
+				8DA3488A290165ED00E6BC83 /* ViewController.m */,
+				8DA3488C290165ED00E6BC83 /* Main.storyboard */,
+				8DA3488F290165EE00E6BC83 /* Assets.xcassets */,
+				8DA34891290165EE00E6BC83 /* LaunchScreen.storyboard */,
+				8DA34894290165EE00E6BC83 /* Info.plist */,
+				8DA34895290165EE00E6BC83 /* main.m */,
+				8DA34897290165EE00E6BC83 /* ArticleAppClip.entitlements */,
+			);
+			path = ArticleAppClip;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -144,6 +220,8 @@
 				5709B34CF0A7D63546082F79 /* Pods-ArticleApp.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-ArticleApp-ArticleAppTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-ArticleApp-ArticleAppTests.release.xcconfig */,
+				A05C208ABD11DB1041F9DAF6 /* Pods-ArticleApp-ArticleAppClip.debug.xcconfig */,
+				4CF37CB3DC12F95A07003A59 /* Pods-ArticleApp-ArticleAppClip.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -184,15 +262,39 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				8DA3489B290165EE00E6BC83 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8DA34899290165EE00E6BC83 /* PBXTargetDependency */,
 			);
 			name = ArticleApp;
 			productName = ArticleApp;
 			productReference = 13B07F961A680F5B00A75B9A /* ArticleApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8DA34880290165ED00E6BC83 /* ArticleAppClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA3489E290165EE00E6BC83 /* Build configuration list for PBXNativeTarget "ArticleAppClip" */;
+			buildPhases = (
+				08005BB131DFB09257ACE251 /* [CP] Check Pods Manifest.lock */,
+				8DA3489F2901681700E6BC83 /* Start Packager */,
+				8DA3487D290165ED00E6BC83 /* Sources */,
+				8DA3487E290165ED00E6BC83 /* Frameworks */,
+				8DA3487F290165ED00E6BC83 /* Resources */,
+				8DA348A02901683300E6BC83 /* Bundle React Native code and images */,
+				7CAE0E236A1605997CFC7951 /* [CP] Embed Pods Frameworks */,
+				1FBF7BE8B46EE43CB4DE7E69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArticleAppClip;
+			productName = ArticleAppClip;
+			productReference = 8DA34881290165ED00E6BC83 /* ArticleAppClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,6 +310,9 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
+					};
+					8DA34880290165ED00E6BC83 = {
+						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
@@ -226,6 +331,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* ArticleApp */,
 				00E356ED1AD99517003FC87E /* ArticleAppTests */,
+				8DA34880290165ED00E6BC83 /* ArticleAppClip */,
 			);
 		};
 /* End PBXProject section */
@@ -247,6 +353,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8DA3487F290165ED00E6BC83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA34893290165EE00E6BC83 /* LaunchScreen.storyboard in Resources */,
+				8DA34890290165EE00E6BC83 /* Assets.xcassets in Resources */,
+				8DA3488E290165ED00E6BC83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -264,7 +380,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE index.clip.js\"\n";
 		};
 		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -282,6 +398,100 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArticleApp/Pods-ArticleApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		08005BB131DFB09257ACE251 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArticleApp-ArticleAppClip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FBF7BE8B46EE43CB4DE7E69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArticleApp-ArticleAppClip/Pods-ArticleApp-ArticleAppClip-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArticleApp-ArticleAppClip/Pods-ArticleApp-ArticleAppClip-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArticleApp-ArticleAppClip/Pods-ArticleApp-ArticleAppClip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CAE0E236A1605997CFC7951 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArticleApp-ArticleAppClip/Pods-ArticleApp-ArticleAppClip-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArticleApp-ArticleAppClip/Pods-ArticleApp-ArticleAppClip-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArticleApp-ArticleAppClip/Pods-ArticleApp-ArticleAppClip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DA3489F2901681700E6BC83 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+		};
+		8DA348A02901683300E6BC83 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -417,6 +627,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8DA3487D290165ED00E6BC83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA3488B290165ED00E6BC83 /* ViewController.m in Sources */,
+				8DA34885290165ED00E6BC83 /* AppDelegate.m in Sources */,
+				8DA34896290165EE00E6BC83 /* main.m in Sources */,
+				8DA34888290165ED00E6BC83 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -425,7 +646,31 @@
 			target = 13B07F861A680F5B00A75B9A /* ArticleApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
+		8DA34899290165EE00E6BC83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA34880290165ED00E6BC83 /* ArticleAppClip */;
+			targetProxy = 8DA34898290165EE00E6BC83 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DA3488C290165ED00E6BC83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA3488D290165ED00E6BC83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DA34891290165EE00E6BC83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA34892290165EE00E6BC83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
@@ -666,6 +911,86 @@
 			};
 			name = Release;
 		};
+		8DA3489C290165EE00E6BC83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A05C208ABD11DB1041F9DAF6 /* Pods-ArticleApp-ArticleAppClip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = ArticleAppClip/ArticleAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArticleAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ArticleApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.ArticleApp.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DA3489D290165EE00E6BC83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF37CB3DC12F95A07003A59 /* Pods-ArticleApp-ArticleAppClip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = ArticleAppClip/ArticleAppClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArticleAppClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ArticleApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.ArticleApp.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -692,6 +1017,15 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA3489E290165EE00E6BC83 /* Build configuration list for PBXNativeTarget "ArticleAppClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA3489C290165EE00E6BC83 /* Debug */,
+				8DA3489D290165EE00E6BC83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
