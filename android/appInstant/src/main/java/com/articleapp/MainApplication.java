@@ -2,7 +2,6 @@ package com.articleapp;
 
 import android.app.Application;
 import android.content.Context;
-import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
@@ -25,11 +24,10 @@ public class MainApplication extends Application implements ReactApplication {
 
         @Override
         protected List<ReactPackage> getPackages() {
-          @SuppressWarnings("UnnecessaryLocalVariable")
-          List<ReactPackage> packages = new PackageList(this).getPackages();
-          // Packages that cannot be autolinked yet can be added manually here, for example:
-          // packages.add(new MyReactNativePackage());
-          return packages;
+            // Packages need to be linked manually due to requirements of instant app
+            // If the dependency is needed in an instant application - import and append it with the property path in PackageListSyntheticFull class and include the package in build.gradle file
+
+            return new PackageListInstant(this).getPackages();
         }
 
         @Override

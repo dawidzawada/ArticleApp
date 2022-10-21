@@ -2,7 +2,7 @@ package com.articleapp.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
-import com.facebook.react.PackageList;
+import com.articleapp.PackageListInstant;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -44,14 +44,10 @@ public class MainApplicationReactNativeHost extends ReactNativeHost {
 
   @Override
   protected List<ReactPackage> getPackages() {
-    List<ReactPackage> packages = new PackageList(this).getPackages();
-    // Packages that cannot be autolinked yet can be added manually here, for example:
-    //     packages.add(new MyReactNativePackage());
-    // TurboModules must also be loaded here providing a valid TurboReactPackage implementation:
-    //     packages.add(new TurboReactPackage() { ... });
-    // If you have custom Fabric Components, their ViewManagers should also be loaded here
-    // inside a ReactPackage.
-    return packages;
+    // Packages need to be linked manually due to requirements of instant app
+    // If the dependency is needed in an instant application - import and append it with the property path in PackageListSyntheticFull class and include the package in build.gradle file
+
+    return new PackageListInstant(this).getPackages();
   }
 
   @Override
