@@ -1,16 +1,16 @@
 ![ScreenShot](https://raw.github.com/dawidzawada/articleapp/main/repo.png)
 
-# Article App
+# Article App :newspaper:
 
 This repo contains 4 React Native - based apps: 
- - **iOS App**
- - **Android App**
- - **App Clip** - a small part of an iOS application
- - **Instant App** - an application which can be downloaded & run with help of Google Play Instant service.
+ - **iOS App** :apple:
+ - **Android App** :robot:
+ - **App Clip** :paperclip: - a small part of an iOS application 
+ - **Instant App** :zap: - an application which can be downloaded & run with help of Google Play Instant service.
 
 Development process is deeply described in my article.
 
-### Required tools
+### Required tools :hammer:
  - Xcode
  - Android Studio + configured emulator / real device
  - `Android SDK API Level 31` installed
@@ -26,7 +26,7 @@ Exports for terminal shell:
    export PATH=$ANDROID_SDK_ROOT/extras/google/instantapps:$PATH
 ```
 
-### Installation
+### Installation :clipboard:
  1. Clone repo
  2. Install required tools
  3. Run `yarn install`
